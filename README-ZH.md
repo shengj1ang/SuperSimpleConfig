@@ -3,7 +3,7 @@
 `SuperSimpleConfig` 是一个轻量级的 Python 库，用于读取以极其简单方式编写的用户配置文件。它旨在提供一种简单直观的方法来处理配置文件，使得读取和应用配置变得轻而易举。
 
 
-[English](https://github.com/shengj1ang/SuperSimpleConfig/README.md)
+[English](https://github.com/shengj1ang/SuperSimpleConfig/blob/main/README.md)
 
 ## 特性
 

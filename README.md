@@ -2,7 +2,7 @@
 
 `SuperSimpleConfig`  is a lightweight Python library designed to read user configuration files written in an extremely simple manner. Its goal is to offer an easy and intuitive way to handle configuration files, making the reading and application of configurations straightforward and hassle-free.
 
-[中文文档](https://github.com/shengj1ang/SuperSimpleConfig/README-ZH.md)
+[中文文档](https://github.com/shengj1ang/SuperSimpleConfig/blob/main/README-ZH.md)
 
 ## 特性
 

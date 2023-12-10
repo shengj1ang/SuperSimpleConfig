@@ -1,10 +1,12 @@
 # SuperSimpleConfig
 
+https://github.com/shengj1ang/SuperSimpleConfig
+
 `SuperSimpleConfig`  is a lightweight Python library designed to read user configuration files written in an extremely simple manner. Its goal is to offer an easy and intuitive way to handle configuration files, making the reading and application of configurations straightforward and hassle-free.
 
 [中文文档](https://github.com/shengj1ang/SuperSimpleConfig/blob/main/README-ZH.md)
 
-## 特性
+## Features
 
 - No block structure; each configuration item is on its own line.
 - All spaces are ignored.
@@ -14,7 +16,7 @@
 - Read-only functionality; does not support writing.
 
 
-## 安装
+## Installation
 
 You can install `SuperSimpleConfig` via `pip`:
 
@@ -39,7 +41,7 @@ pi=3.1415 // Automatically identified as float
 // Empty lines are also okay
 
 ```
-以下是另一份配置文件:
+Here's another example of a configuration file:
 ```makefile
 // Configuration File
 // pip install pyserial
@@ -80,10 +82,10 @@ Then, you can use the following code to read and use these configurations:
 
 from SuperSimpleConfig import UserConfig
 
-configs = UserConfig.read("config.txt")
+configs = UserConfig().read("config.txt")
 
-#UserConfig("FilePath").read()  #return a dictionary
-#UserConfig("FilePath").show() #print the config
+#UserConfig().read("FilePath")  #return a dictionary
+#UserConfig().show("FilePath") #print the config
 
 print(configs)
 Value1=configs['flask_host']

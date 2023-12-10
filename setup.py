@@ -2,7 +2,7 @@ from setuptools import setup
 from setuptools import find_packages
 
 
-VERSION = '2023.12.10'
+VERSION = '2023.12.13'
 
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -17,5 +17,10 @@ setup(
     long_description_content_type="text/markdown",
     url='https://github.com/shengj1ang/SuperSimpleConfig',
     packages=find_packages(),
+    entry_points={
+        'console_scripts': [
+            'supersimpleconfig=SuperSimpleConfig:main',
+        ],
+    },
     zip_safe=False,
 )

@@ -1,5 +1,7 @@
 # SuperSimpleConfig
 
+https://github.com/shengj1ang/SuperSimpleConfig
+
 `SuperSimpleConfig` 是一个轻量级的 Python 库，用于读取以极其简单方式编写的用户配置文件。它旨在提供一种简单直观的方法来处理配置文件，使得读取和应用配置变得轻而易举。
 
 
@@ -77,10 +79,10 @@ flask_production_mode=False
 
 from SuperSimpleConfig import UserConfig
 
-configs = config.read("config.txt")
+configs = UserConfig().read("config.txt")
 
-#UserConfig("FilePath").read()  #return a dictionary
-#UserConfig("FilePath").show() #print the config
+#UserConfig().read("FilePath")  #return a dictionary
+#UserConfig().show("FilePath") #print the config
 
 print(configs)
 Value1=configs['flask_host']

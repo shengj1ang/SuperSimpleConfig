@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+SuperSimpleConfig.egg-info/PKG-INFO
+SuperSimpleConfig.egg-info/SOURCES.txt
+SuperSimpleConfig.egg-info/dependency_links.txt
+SuperSimpleConfig.egg-info/not-zip-safe
+SuperSimpleConfig.egg-info/top_level.txt

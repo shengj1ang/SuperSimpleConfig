@@ -1,8 +1,16 @@
+Metadata-Version: 2.1
+Name: SuperSimpleConfig
+Version: 2023.12.10
+Summary: Reads user configuration files that written in an extremely simple way
+Home-page: https://github.com/shengj1ang/SuperSimpleConfig
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # SuperSimpleConfig
 
 `SuperSimpleConfig`  is a lightweight Python library designed to read user configuration files written in an extremely simple manner. Its goal is to offer an easy and intuitive way to handle configuration files, making the reading and application of configurations straightforward and hassle-free.
-
-[中文文档](https://github.com/shengj1ang/SuperSimpleConfig/README-ZH.md)
 
 ## 特性
 
@@ -103,5 +111,7 @@ our configuration file should follow these simple rules:
 
 ## License
 SuperSimpleConfig is released under the MIT License. For more details, please see the LICENSE file.
+
+
 
 

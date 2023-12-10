@@ -1,12 +1,12 @@
 '''
 Simple Config Standard (Version: 2023DEC)
 
-1. No blocks, One Config One Line: domain=apple.com //Notes added here will be ignored
-2. All Space Will Be Ignored
-3. "something" is not necessary, just something
-4. Allowed Types: Int, Float(if . found), Str . Auto Detect.
-5. Force string: "1241251", it will be a string
-6. \/\/ if you want use // as text
+- No block structure; each configuration item is on its own line.
+- All spaces are ignored.
+- Automatic detection of data types (integer, float, string, boolean).
+- By default, quotes are not needed for strings. If you want to force a numerical value to be treated as a string, you can manually add quotes like "123456".
+- Super simple syntax.
+- Read-only functionality; does not support writing.
 
 Examples:
     domain=apple.com
